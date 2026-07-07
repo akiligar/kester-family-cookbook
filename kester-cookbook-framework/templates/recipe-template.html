@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RECIPE_TITLE</title>
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "RECIPE_TITLE",
+    "description": "RECIPE_DESCRIPTION",
+    "recipeYield": "SERVINGS",
+    "prepTime": "PT0M",
+    "cookTime": "PT0M",
+    "totalTime": "PT0M",
+    "recipeIngredient": [
+      "INGREDIENT_1",
+      "INGREDIENT_2"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "STEP_1"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "STEP_2"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main class="recipe">
+    <h1>RECIPE_TITLE</h1>
+    <p class="description">RECIPE_DESCRIPTION</p>
+
+    <section class="meta" aria-label="Recipe details">
+      <p><strong>Servings:</strong> SERVINGS</p>
+      <p><strong>Prep time:</strong> PREP_TIME_TEXT</p>
+      <p><strong>Cook time:</strong> COOK_TIME_TEXT</p>
+      <p><strong>Total time:</strong> TOTAL_TIME_TEXT</p>
+    </section>
+
+    <section>
+      <h2>Ingredients</h2>
+      <ul>
+        <li>INGREDIENT_1</li>
+        <li>INGREDIENT_2</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Instructions</h2>
+      <ol>
+        <li>STEP_1</li>
+        <li>STEP_2</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Family Notes</h2>
+      <ul>
+        <li>NOTE_1</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Import this page into AnyList using the browser extension.</p>
+    </footer>
+  </main>
+</body>
+</html>
